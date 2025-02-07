@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gifts 🎁</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gift 🎁</h1>
+        <div class="gifts">
+            <div class="gift" onclick="openGift(1, this)"><img src="gift.png" alt="Gift 1"></div>
+            <div class="gift" onclick="openGift(2, this)"><img src="gift.png" alt="Gift 2"></div>
+            <div class="gift" onclick="openGift(1, this)"><img src="gift.png" alt="Gift 3"></div>
+        </div>
+    </div>
+
+    <div id="fullscreen" class="fullscreen" onclick="closeGift()">
+        <img id="giftImage" src="" alt="Gift Image">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
